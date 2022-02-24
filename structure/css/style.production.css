@@ -126,6 +126,14 @@ ul {
   padding: 20px;
 }
 
+
+@media all and (max-width: 750px) {
+  .page-header {
+    flex-direction: column;
+  }
+}
+
+
 .page-header__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 200px;
